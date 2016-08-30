@@ -22,10 +22,11 @@
         this.progressBar.setAttribute("style", "width:300px");
         this.containerGeneral.appendChild(this.progressBar);
         //CREACION INPUT FILE MULTIPLE
+        var date = new Date().getTime();
         this.file = document.createElement("INPUT");
         this.file.type = "file";
-        this.file.name = "file2";
-        this.file.id = "file2";
+        this.file.name = "file-" + date;
+        this.file.id = "file-" + date;
         this.file.className = "btn btn-default";
 
         //obj.multiple = obj.multiple || true;
