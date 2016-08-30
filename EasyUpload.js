@@ -1,5 +1,6 @@
 //Clousure clase XHR PURE JS
 (function(objetoGlobal) {
+  //create by claudio.dcv@gmail.com
     var EasyUpload = function(objetoConstructor) {
 
         //Private
